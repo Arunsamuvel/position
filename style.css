@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main-header {
+  background-image: url(./images/bg2.jpg);
+  background-position: center;
+
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: cover;
+}
+.navbar h1 {
+  font-size: 50px;
+}
+.navbar h1,
+ul,
+li,
+a {
+  display: inline;
+  padding: 10px;
+  color: rgb(233, 228, 228);
+}
+
+.navbar ul {
+  margin-left: 1000px;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 22px;
+}
+.navbar input {
+  background-color: rgb(43, 157, 43);
+  padding: 10px;
+}
+#about {
+  width: 34%;
+  padding: 100px;
+}
+#about h1,
+p {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+#about h1 {
+  font-size: 48px;
+}
+#about input {
+  background-color: rgb(51, 214, 51);
+  padding: 20px 100px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+#about a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(235, 240, 239);
+  font-size: 26px;
+}
+input:hover {
+  cursor: pointer;
+  color: red;
+}
+a:hover {
+  cursor: pointer;
+  color: red;
+}
+#main-section {
+  margin: 150px 0 50px 150px;
+}
+.container1 img {
+  float: left;
+  width: 40%;
+}
+.container2 {
+  float: left;
+  width: 30%;
+  height: 70px;
+  position: relative;
+  right: 45%;
+  top: 100px;
+}
+.container3 {
+  float: right;
+  width: 30%;
+  height: 70px;
+  position: relative;
+  top: 250px;
+  right: 35%;
+}
+.container4 {
+  float: right;
+  width: 38%;
+  position: relative;
+  right: 150px;
+}
+.container4 h2 {
+  font-size: 30px;
+  width: 500px;
+}
+.container4 p {
+  color: black;
+  opacity: 0.6;
+  padding: 30px;
+}
+.box img {
+  float: left;
+  width: 10%;
+  padding: 11px;
+}
